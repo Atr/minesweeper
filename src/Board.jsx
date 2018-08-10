@@ -4,7 +4,9 @@ import Square from './Square';
 
 const Board = props => (
   <div>
-    <h1> Board </h1>
+    <h1>
+      Board
+    </h1>
     <Square />
     <Square />
     <Square />
