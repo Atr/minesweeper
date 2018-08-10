@@ -2,11 +2,22 @@ import React from 'react';
 import {Component} from 'react';
 import {hot} from 'react-hot-loader';
 
+import Board from './Board';
+
 class App extends Component{
-  render(){
+  constructor (props) {
+    super(props);
+
+    //bind area
+
+    this.state = {};
+  }
+
+  render(){  
     return(
       <div className='App'>
         <h1> App is live! </h1>
+        <Board />
       </div>
     );
   }
